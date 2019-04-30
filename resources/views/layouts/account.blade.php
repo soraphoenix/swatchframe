@@ -13,9 +13,9 @@
       <div id="sidemenu">
         <div class="logo"> </div>
         <nav>
-          <a class="active" href="/design-storm/public/account"> <i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard
+          <a class="active" href="/swatch-frame/public/account"> <i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard
           </a>
-          <a class="active" href="/design-storm/public/account/projects"> <i class="fa fa-briefcase" aria-hidden="true"></i>Projects
+          <a class="active" href="/swatch-frame/public/account/projects"> <i class="fa fa-briefcase" aria-hidden="true"></i>Projects
           </a>
         </nav>
       </div>

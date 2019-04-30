@@ -2,7 +2,7 @@
 @extends('layouts/main')
 
     @section('title')
-      Design Storm - Inspiration for developers
+      SwatchFrame - Inspiration for developers
     @endsection
 
     @section('content')

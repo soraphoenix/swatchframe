@@ -18,7 +18,7 @@
       <div class="box">
         <div class="row">
           <div class="col-md-10">
-            <form class="form-control" action="/design-storm/public/account/projects/{{ $project->id }}" method="POST">
+            <form class="form-control" action="/swatch-frame/public/account/projects/{{ $project->id }}" method="POST">
               @csrf
               @method('PUT')
               <div class="row">
@@ -60,7 +60,7 @@
                       <div class="box">
                         <div style="position: relative; background: url('{{ $inspiration->image_url }}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
                         </div>
-                        <a href="/design-storm/public/account/projects/inspiration/{{ $inspiration->image_info }}/delete">Delete</a>
+                        <a href="/swatch-frame/public/account/projects/inspiration/{{ $inspiration->image_info }}/delete">Delete</a>
                       </div>
                     </div>
                   @endforeach
@@ -71,7 +71,7 @@
           </div>
           <div class="col-md-2">
             <center>
-              <a href="/design-storm/public/account/projects/{{ $project->id }}/delete" onclick="confirm()" class="delete-btn">Delete</a>
+              <a href="/swatch-frame/public/account/projects/{{ $project->id }}/delete" onclick="confirm()" class="delete-btn">Delete</a>
             </center>
           </div>
         </div>

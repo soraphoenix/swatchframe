@@ -1,7 +1,7 @@
 @extends('layouts/main')
 
 @section('title')
-  Design Storm - Inspiration for developers
+SwatchFrame - Inspiration for developers
 @endsection
 
 @section('content')
@@ -12,7 +12,7 @@
           <div class="search-container">
             <form class="" action="results" method="POST">
               @csrf
-              <h1>DesignStorm</h1>
+              <h1>SwatchFrame</h1>
               <input class="search" type="text" value="" placeholder="Search" name="search">
             </form>
           </div>

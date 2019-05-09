@@ -10,13 +10,13 @@
   </head>
   <body>
     <header>
-      <div class="container"><a class="logo" href="/swatch-frame/public">SwatchFrame</a>
+      <div class="container"><a class="logo" href="">SwatchFrame</a>
         <nav>
           @guest
-            <a href="/swatch-frame/public/register">register</a>
-            <a href="/swatch-frame/public/login">login</a>
+            <a href="/register">register</a>
+            <a href="/login">login</a>
           @else
-            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/swatch-frame/public/account" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/account" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                 {{ Auth::user()->name }} <span class="caret"></span>
             </a>
 

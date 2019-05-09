@@ -13,7 +13,7 @@
       <div class="box">
         <div class="row">
           <div class="col-md-10">
-            <form class="form-control" action="/swatch-frame/public/account/projects" method="POST">
+            <form class="form-control" action="/account/projects" method="POST">
               @csrf
               <div class="row">
                 <div class="col-md-6">

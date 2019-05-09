@@ -12,7 +12,7 @@
           <div id="results">
             <div>
               <div class="search-container">
-                <form class="" action="/swatch-frame/public/results" method="POST">
+                <form class="" action="/results" method="POST">
                   @csrf
                   <input class="search" type="text" value="{{ $keyword }}" placeholder="Search" name="search">
                 </form>
@@ -27,7 +27,7 @@
                             @php
                               $codedUrl = urlencode($inspiration->covers->{ '202' })
                             @endphp
-                            <a href="/swatch-frame/public/projects/inspiration/{{ $inspiration->id }}/add?image_url={{ $codedUrl }}">
+                            <a href="/projects/inspiration/{{ $inspiration->id }}/add?image_url={{ $codedUrl }}">
                               <div class="add-btn @if(in_array($inspiration->id, $arrayInfo))
                                 active
                               @endif">
